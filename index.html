@@ -6,85 +6,86 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-            <label for="name">Name</label>
+    <form action="#">
+        <div>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="surname">urname</label>
             <br>
-            <input type="text" name="name" id="name">
-    </div>
-    <div>
-        <label for="surname">urname</label>
-        <br>
-        <input type="text" name="surname" id="surname">
-    </div>
-    <div>
-            <label for="email">Email</label>
+            <input type="text" name="surname" id="surname">
+        </div>
+        <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email">
+        </div>
+        <div>
+                <label for="phone">Phone</label>
+                <br>
+                <input type="number" name="phone" id="phone">
+        </div>
+        <div>
+                <label for="info">Hobby</label>
+                <br>
+                <textarea name="info" id="info" cols="30" rows="10"></textarea>
+                <hr>
+        </div>
+        <div>
+            <h3>Choose your gender</h3>
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="man" value="Man">
             <br>
-            <input type="email" name="email" id="email">
-    </div>
-    <div>
-            <label for="phone">Phone</label>
+            <label for="woman">Woman</label>
+            <input type="radio" name="gender" id="woman" value="Woman">
             <br>
-            <input type="number" name="phone" id="phone">
-    </div>
-    <div>
-            <label for="info">Hobby</label>
+            <label for="PP">Pes patron</label>
+            <input type="radio" name="gender" id="PP" value="Pes patron">
+        </div>
+        <div>
+            <h3>Choose your graduation</h3>
+            <label for="school">School</label>
+            <input type="radio" name="graduation" id="school" value="School">
             <br>
-            <textarea name="info" id="info" cols="30" rows="10"></textarea>
-            <hr>
-    </div>
-    <div>
-        <h3>Choose your gender</h3>
-        <label for="man">Man</label>
-        <input type="radio" name="gender" id="man" value="Man">
-        <br>
-        <label for="woman">Woman</label>
-        <input type="radio" name="gender" id="woman" value="Woman">
-        <br>
-        <label for="PP">Pes patron</label>
-        <input type="radio" name="gender" id="PP" value="Pes patron">
-    </div>
-    <div>
-        <h3>Choose your graduation</h3>
-        <label for="school">School</label>
-        <input type="radio" name="graduation" id="school" value="School">
-        <br>
-        <label for="bac">Bachelor</label>
-        <input type="radio" name="graduation" id="bac" value="Bachelor">
-        <br>
-        <label for="mag">Magister</label>
-        <input type="radio" name="graduation" id="mag" value="Magister">
-        <br>
-        <label for="pro">Professor</label>
-        <input type="radio" name="graduation" id=pro value="Professor">
-    </div>
-    <div>
-        <h3>Choose your country</h3>
-        <label for="country">Choose your country</label>
-        <select name="country" id="country" required>
-            <option value="pick" selected disabled>Pick a country</option>
-            <option value="usa">Omerika</option>
-            <option value="ua">Ukroreich</option>
-            <option value="pl">Polunytsia</option>
-        </select>
-    </div>
-    <div>
-        <h3>Choose your vehicle</h3>
-        <label for="vehicle">Choose your vehicle</label>
-        <select name="country" id="vehicle">
-            <option value="pick" selected disabled>Pick your vehicle</option>
-            <option value="moto">Motorcycle</option>
-            <option value="car">Car</option>
-            <option value="boat">Boat</option>
-            <option value="ship">Ship</option>
-            <option value="plane">Plane</option>
-            <option value="train">Train</option>
-            <option value="feet">Feet</option>
-        </select>
-    </div>
-    <div>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </div>
-
+            <label for="bac">Bachelor</label>
+            <input type="radio" name="graduation" id="bac" value="Bachelor">
+            <br>
+            <label for="mag">Magister</label>
+            <input type="radio" name="graduation" id="mag" value="Magister">
+            <br>
+            <label for="pro">Professor</label>
+            <input type="radio" name="graduation" id=pro value="Professor">
+        </div>
+        <div>
+            <h3>Choose your country</h3>
+            <label for="country">Choose your country</label>
+            <select name="country" id="country" required>
+                <option value="pick" selected disabled>Pick a country</option>
+                <option value="usa">Omerika</option>
+                <option value="ua">Ukroreich</option>
+                <option value="pl">Polunytsia</option>
+            </select>
+        </div>
+        <div>
+            <h3>Choose your vehicle</h3>
+            <label for="vehicle">Choose your vehicle</label>
+            <select name="country" id="vehicle">
+                <option value="pick" selected disabled>Pick your vehicle</option>
+                <option value="moto">Motorcycle</option>
+                <option value="car">Car</option>
+                <option value="boat">Boat</option>
+                <option value="ship">Ship</option>
+                <option value="plane">Plane</option>
+                <option value="train">Train</option>
+                <option value="feet">Feet</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
 </body>
 </html>
